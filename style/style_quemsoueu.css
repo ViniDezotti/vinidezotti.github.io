@@ -1,0 +1,49 @@
+header{
+    margin-bottom: 4%;
+}
+
+.corpo{
+    text-align: center;
+    display: block;
+}
+
+#foto{
+    width: 20%;
+    border: 2px solid rgba(0, 0, 0, 0.493);
+    border-radius: 2%;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#insta{
+    width: 2%;
+    margin-right: 1%;
+}
+
+#twitch{
+    width: 4%;
+}
+
+.comentarios{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#link a{
+    color: black;
+    text-decoration: none;
+}
+
+#link a:hover{
+    color: #C78C19;
+    text-decoration: none;
+}
+
+
+footer{
+    margin-top: 4%;
+}
