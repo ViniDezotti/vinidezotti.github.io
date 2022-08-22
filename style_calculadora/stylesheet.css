@@ -74,7 +74,7 @@ button:active, #divisao:active , #adicao:active, #subtracao:active, #igual:activ
 
 @media screen and (max-width: 1600px) {
     .visor input{
-        width: 60%;
+        width: 70%;
         font-size: 50px;
     }
     .calculadora{
