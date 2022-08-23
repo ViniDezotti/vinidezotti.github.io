@@ -1,12 +1,13 @@
-const button = document.querySelector('nro0');
-button.addEventListener('click', updateButton);
-
 function updateButton() {
-  if (button.value === 'Start machine') {
-    button.value = 'Stop machine';
+  if (nro0.value === 'Start machine') {
+    nro0.value = 'Stop machine';
     paragraph.textContent = 'The machine has started!';
   } else {
-    button.value = 'Start machine';
+    nro0.value = 'Start machine';
     paragraph.textContent = 'The machine is stopped.';
   }
 }
+
+var nro0 = document.querySelector('#nro0');
+nro0.addEventListener('click', updateButton);
+
