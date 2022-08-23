@@ -17,9 +17,13 @@ h1{
     text-align: center;
 }
 
+#limpar{
+    background-color: #691004;
+}
+
 .calculadora{
     background-color: green;
-    margin: 5% auto;
+    margin: 2% auto;
     border: 2px solid black;
     background-color: #4669F9;
     width: 30%;
@@ -29,10 +33,11 @@ h1{
 .visor input{
     width: 80%;
     text-align: right;
+    font-family: 'Orbitron', sans-serif;
     background-color: rgba(244, 248, 255, 0.486);
     border: 2px solid black;
     border-radius: 10px;
-    font-size: 80px;
+    font-size: 50px;
 }
 .visor{
     margin: 5% auto;
@@ -46,24 +51,23 @@ h1{
 button{
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
     margin: 0.4%;
     width: 18%;
     min-height: 90px;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 .fileira_1 button, #divisao , #adicao, #subtracao, #igual{
     background-color: #d88509f1;
 }
 
-button:hover, #divisao:hover , #adicao:hover, #subtracao:hover, #igual:hover{
+button:hover, #divisao:hover , #adicao:hover, #subtracao:hover, #igual:hover, #limpar:hover{
     background-color: #00000080;
 }
 
-button:active, #divisao:active , #adicao:active, #subtracao:active, #igual:active{
+button:active, #divisao:active , #adicao:active, #subtracao:active, #igual:active, #limpar:active{
     background-color: #08ff14;
 }
 
@@ -72,10 +76,10 @@ button:active, #divisao:active , #adicao:active, #subtracao:active, #igual:activ
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
     .visor input{
         width: 85%;
-        font-size: 50px;
+        font-size: 40px;
     }
     .calculadora{
         margin: 8% auto;
