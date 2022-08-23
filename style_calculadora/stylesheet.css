@@ -83,6 +83,7 @@ button:active, #divisao:active , #adicao:active, #subtracao:active, #igual:activ
         min-width: 300px;
     }
     button{
+        background-color: white;
         width: 20%;
         font-size: 100%;
         min-height: 60px;
