@@ -30,11 +30,12 @@ h1{
     margin: 5% auto 10% auto;
 }
 
-.visor input{
+.visor input:disabled{
     direction: LTR;
     width: 95%;
     text-align: right;
     font-family: 'Orbitron', sans-serif;
+    color: black;
     background-color: rgb(244, 248, 255);
     border: 3px solid black;
     border-radius: 10px;
