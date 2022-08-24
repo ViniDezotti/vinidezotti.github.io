@@ -9,52 +9,48 @@
     <link rel="stylesheet" href="./style_calculadora/reset.css">
     <link rel="stylesheet" href="./style_calculadora/stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Calculadora</title>
 </head>
 
 <body>
     <div class="conteudo">
-        <h1>DezoCalculo</h1>
+        <h1>Calculadora</h1>
         <div class="calculadora">
             <div class="visor">
-                <input type="text" maxlength="8" id="teste">
+                <input id="tela" value="0">
             </div>
             <div class="botoes">
-                <div class="fileira_1">
-                    <button id="limpar" onclick="reset()">ac</button>
-                    <button id="resto">%</button>
-                    <button id="raiz">√</button>
-                    <button id="multiplicacao">*</button>
+                <div class="fileira">
+                    <button class="btnDuplo corReset" onclick="reset()">ac</button>
+                    <button class="btnNumero corApagar" onclick="apagar()">⇠</button>
+                    <button class="btnOperacao" onclick="escreveSinal(this.innerHTML)">*</button>
                 </div>
-                <div class="fileira_2">
-                    <button id="nro7" onclick="escreve(7)">7</button>
-                    <button id="nro8" onclick="escreve(8)">8</button>
-                    <button id="nro9" onclick="escreve(9)">9</button>
-                    <button id="divisao">/</button>
+                <div class="fileira">
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">7</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">8</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">9</button>
+                    <button class="btnOperacao" onclick="escreveSinal(this.innerHTML)">/</button>
                 </div>
-                <div class="fileira_3">
-                    <button id="nro4" onclick="escreve(4)">4</button>
-                    <button id="nro5" onclick="escreve(5)">5</button>
-                    <button id="nro6" onclick="escreve(6)">6</button>
-                    <button id="subtracao">-</button>
+                <div class="fileira">
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">4</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">5</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">6</button>
+                    <button class="btnOperacao" onclick="escreveSinal(this.innerHTML)">-</button>
                 </div>
-                <div class="fileira_4">
-                    <button id="nro1" onclick="escreve(1)">1</button>
-                    <button id="nro2" onclick="escreve(2)">2</button>
-                    <button id="nro3" onclick="escreve(3)">3</button>
-                    <button id="adicao">+</button>
+                <div class="fileira">
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">1</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">2</button>
+                    <button class="btnNumero" onclick="escreveNumero(this.innerHTML)">3</button>
+                    <button class="btnOperacao" onclick="escreveSinal(this.innerHTML)">+</button>
                 </div>
-                <div class="fileira_5">
-                    <button id="nro0" onclick="escreve(0)">0</button>
-                    <button id="ponto">.</button>
-                    <button id="igual">=</button>
+                <div class="fileira">
+                    <button class="btnDuplo" onclick="escreveNumero(this.innerHTML)">0</button>
+                    <button class="btnNumero" onclick="decimal()">.</button>
+                    <button class="btnOperacao" onclick="calculaResultado()">=</button>
                 </div>
             </div>
-            <script>
-            </script>
         </div>
     </div>
 </body>
-
 </html>
