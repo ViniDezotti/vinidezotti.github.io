@@ -34,13 +34,17 @@ function apagar(){
 }
 
 function decimal(){
-  if(qntPontos < 1){
+  if(qntPontos == 0 && operacao == false){
     document.getElementById('tela').value = document.getElementById('tela').value + '.';
     qntPontos++;
   }
-  else if(qntPontos < 2 && operacao == true){
+  else if(operacao == true && qntPontos<1){
     document.getElementById('tela').value = document.getElementById('tela').value + '.';
     qntPontos+=2;
+  }
+  else if(operacao == true && qntPontos==1){
+    document.getElementById('tela').value = document.getElementById('tela').value + '.';
+    qntPontos++;
   }
 }
 

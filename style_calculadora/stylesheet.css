@@ -74,6 +74,10 @@ button.btnDuplo{
     width: 37%;
 }
 
+.corBranca{
+    background-color: white;
+}
+
 .corReset{
     background-color: #7ED57B;
 }
@@ -104,6 +108,11 @@ button:hover{
 
     .calculadora{
         height: 420px;
+    }
+
+    .visor input{
+        font-size: 30px;
+        margin: 5% auto;
     }
 }
 
