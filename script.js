@@ -34,13 +34,13 @@ function apagar(){
 }
 
 function decimal(){
-  if(qntPontos < 1 ){
+  if(qntPontos < 1){
     document.getElementById('tela').value = document.getElementById('tela').value + '.';
     qntPontos++;
   }
   else if(qntPontos < 2 && operacao == true){
     document.getElementById('tela').value = document.getElementById('tela').value + '.';
-    qntPontos++;
+    qntPontos+=2;
   }
 }
 
