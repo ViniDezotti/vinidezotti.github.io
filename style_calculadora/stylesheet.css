@@ -66,6 +66,10 @@ button.btnOperacao{
     background-color: #F9F871;
 }
 
+button.btnNumero{
+    background-color: white;
+}
+
 button.btnDuplo{
     width: 37%;
 }
