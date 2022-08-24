@@ -23,6 +23,10 @@ function escreveSinal(char){
 }
 
 function apagar(){
+  if((document.getElementById('tela').value.substr(-1) == '+') || 
+    (document.getElementById('tela').value.substr(-1) == '-') || 
+    (document.getElementById('tela').value.substr(-1) == '/') || 
+    (document.getElementById('tela').value.substr(-1) == '*')) operacao=false;
   if(document.getElementById('tela').value.substr(-1) == '.') qntPontos--;
   var texto = document.getElementById('tela').value.slice(0,-1);
   document.getElementById('tela').value = texto;
