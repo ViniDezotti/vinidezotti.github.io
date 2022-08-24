@@ -109,13 +109,16 @@ button:hover{
     }
 
     .calculadora{
-        height: 420px;
+        height: 450px;
+    }
+
+    .visor{
+        margin: 5% auto;
+        width: 70%;
     }
 
     .visor input{
-        width: 70%;
         font-size: 30px;
-        margin: 5% auto;
     }
 }
 
