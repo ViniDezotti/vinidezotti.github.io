@@ -53,6 +53,7 @@ h1{
 }
 
 button{
+    color: black;
     border: 3px solid black;
     border-radius: 10px;
     width: 18%;
@@ -103,7 +104,7 @@ button:hover{
 
 @media screen and (max-width: 1650px){
     h1{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .calculadora{
@@ -111,6 +112,7 @@ button:hover{
     }
 
     .visor input{
+        width: 70%;
         font-size: 30px;
         margin: 5% auto;
     }
