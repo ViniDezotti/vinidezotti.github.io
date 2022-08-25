@@ -110,7 +110,7 @@ button:hover{
     background-color: #D4A418;
 }
 
-@media screen and (max-width: 1650px){
+@media screen and (max-width: 1500px){
     h1{
         font-size: 45px;
     }
