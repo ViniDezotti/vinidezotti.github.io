@@ -2,12 +2,27 @@ body{
     background: black;
 }
 
+.conteudo{
+    text-align: center;
+}
+
 h1{
+    margin: auto 0%;
     font-size: 60px;
     color: white;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-weight: bold;
+}
+
+.header{
+    text-align: center;
+    margin: 1% auto;
+    display: inline-flex;
+}
+
+img{
+    width: 80px;
 }
 
 h3{
@@ -17,12 +32,10 @@ h3{
     text-align: center;
 }
 
-.conteudo{
-    text-align: center;
-}
+
 
 .calculadora{
-    margin: 5% auto;
+    margin: 3% auto;
     /* background-color: #4669F9; */
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     border: 2px solid black;
