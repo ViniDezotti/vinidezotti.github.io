@@ -138,15 +138,15 @@ button:hover{
 
     .visor{
         margin: 5% auto 10% auto;
-        left: 0;
-        width: 70%;
+        width: 80%;
     }
 
     .visor input:disabled{
         color: black;
         background-color: rgb(244, 248, 255);
-        width: 100%;
+        width: 80%;
         font-size: 25px;
+        margin: 0% auto;
     }
 }
 
