@@ -121,7 +121,8 @@ button:hover{
 
     .visor{
         margin: 5% auto;
-        width: 80%;
+        width: 70%;
+        position: fixed;
     }
 
     input{
