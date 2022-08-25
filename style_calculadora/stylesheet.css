@@ -71,6 +71,12 @@ button{
     font-weight: bold;
 }
 
+button:active{
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+    transform: scale(.95);
+}
+
 button.btnOperacao{
     background-color: #F9F871;
 }
@@ -122,6 +128,7 @@ button:hover{
 
     .visor{
         margin: 5% auto 10% auto;
+        margin-left: -5%;
         width: 60%;
     }
 
