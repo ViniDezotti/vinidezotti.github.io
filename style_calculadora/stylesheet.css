@@ -132,6 +132,8 @@ button:hover{
     }
 
     .visor input:disabled{
+        color: black;
+        background-color: rgb(244, 248, 255);
         width: 100%;
         font-size: 25px;
     }
