@@ -116,18 +116,18 @@ button:hover{
     }
 
     .calculadora{
-        height: 450px;
+        margin-top: 10%;
+        height: 400px;
     }
 
     .visor{
-        margin: 5% auto;
-        width: 70%;
-        position: fixed;
+        margin: 5% auto 10% auto;
+        width: 80%;
     }
 
-    input{
+    .visor input:disabled{
+        width: 100%;
         font-size: 30px;
-        width: 60%;
     }
 }
 
