@@ -128,10 +128,11 @@ button:hover{
 
     .visor{
         margin: 5% auto 10% auto;
-        width: 60%;
+        left: 0;
+        width: 70%;
     }
 
-    .visor input:disabled{
+    .visor input{
         color: black;
         background-color: rgb(244, 248, 255);
         width: 100%;
