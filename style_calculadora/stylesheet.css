@@ -27,7 +27,7 @@ img{
 
 img:hover{
     transform: rotate(360deg) scale(2);
-    
+    margin-top: 50px;
     transition-duration: 2s;
     cursor: pointer;
 }
