@@ -25,6 +25,13 @@ img{
     width: 80px;
 }
 
+img:hover{
+    transform: rotate(360deg) scale(2);
+    
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
 h3{
     font-size: 20px;
     color: white;
