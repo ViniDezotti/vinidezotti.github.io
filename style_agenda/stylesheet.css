@@ -1,0 +1,123 @@
+body{
+    /* background-image: linear-gradient(to left bottom, #16a9ad, #00beac, #00d299, #00e475, #49f239); */
+    background-image: linear-gradient(to left, #00beac, #16a9ad, #00beac);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+}
+
+.topBox{
+    width: 80%;
+    height: 32px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px-;
+}
+
+form{
+    /* width: 60%;
+    /* height: 32px; */
+    display: inline-flex; 
+    flex-direction: row;
+    align-items: center; 
+    margin: 0% auto;
+    width: 80%;
+    height: 100%;
+    background: rgba(240, 240, 240, 0.95);
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    fill: currentColor;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+}
+
+svg:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+    transform: scale(.85);
+}
+
+input{
+    all: unset;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 16px;
+}
+
+.page{
+    margin: 10px;
+    max-width: 100%;
+    display: flex;
+}
+
+.leftBox{
+    margin: 0% 5%;
+    width: 70%;
+    height: auto;
+}
+
+table{
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rightBox{
+    margin-left: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.borderR{
+    border-radius: 10px;
+}
+
+.btnCadastrar{
+    width: auto;
+    padding: 0% 10%;
+    background-color: #212529;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.btnRemover{
+    width: auto;
+    height: auto;
+    padding: 0% 10%;
+    background-color: #8f1313;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.btnCadastrar:hover, .btnRemover:hover{
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+    transform: scale(.95);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 1000px){
+    .rightBox button{
+        width: auto;
+        padding: 0% 2%;
+    }
+}
