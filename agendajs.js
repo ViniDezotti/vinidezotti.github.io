@@ -46,11 +46,11 @@ function removeContato(idRemovido){
 
 function procuraContato(){
     var listaProcurado = listaTelefonica.filter((contato) => contato.nome.includes(document.getElementById('searchInput').value));
-    for(var as in listaProcurado){
-        console.log("id = " + listaProcurado[as].id);
-        console.log("nome = " + listaProcurado[as].nome);
-        console.log("numero = " + listaProcurado[as].numero);
-    }
+    // for(var as in listaProcurado){
+    //     console.log("id = " + listaProcurado[as].id);
+    //     console.log("nome = " + listaProcurado[as].nome);
+    //     console.log("numero = " + listaProcurado[as].numero);
+    // }
     listaContatos(listaProcurado);
     (document.getElementById('searchInput').value = '')
 }
